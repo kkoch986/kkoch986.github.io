@@ -1,1 +1,27 @@
-theme: jekyll-theme-minimal
+title: Kenneth C. Koch Jr
+email: kkoch986@gmail.com
+description: >- 
+  This is a place for me to start dumping out all my random projects, ideas and whatever else.
+baseurl: "/"
+url: "https://kennethckoch.com"
+github_username:  kkoch986
+
+# Build settings
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
+plugins:
+  - jekyll-feed
+
+author:
+  name: "Ken Koch"
+  avatar: /assets/ken.jpg
+  bio: >-
+    A person who just loves making things.
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kkoch986@gmail.com"
+    - label: "Github"
+      icon: "fas fa-fw fa-github"
+      url: "https://github.com/kkoch986"
