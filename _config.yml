@@ -7,8 +7,8 @@ url: "https://kennethckoch.com"
 github_username:  kkoch986
 
 # Build settings
-theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: dark
 plugins:
   - jekyll-feed
