@@ -1,7 +1,7 @@
 main:
-  - title: "Recent"
-    url: /tags/recent
-  - title: "Electronics"
-    url: /tags/electronics
-  - title: "Software"
-    url: /tags/software
+  - title: "Active Projects"
+    url: /tags/#active
+  - title: "Ideas"
+    url: /tags/#wip
+  - title: "Archive"
+    url: /tags/#archive

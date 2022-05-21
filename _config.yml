@@ -1,21 +1,25 @@
 title: Kenneth C. Koch Jr
+subtitle: A collection of random projects and ideas
 email: kkoch986@gmail.com
 description: >- 
   This is a place for me to start dumping out all my random projects, ideas and whatever else.
 baseurl: "/"
 url: "https://kennethckoch.com"
 github_username:  kkoch986
+breadcrumbs: false 
+show_date: true
+search: true
 
-# Build settings
-remote_theme: mmistakes/minimal-mistakes
+#remote_theme: mmistakes/minimal-mistakes
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: contrast
 plugins:
   - jekyll-feed
+  - jekyll-archives
 
 author:
   name: "Ken Koch"
-  avatar: /assets/ken.jpg
+  avatar: /assets/images/ken.jpg
   bio: >-
     A person who just loves making things.
   links:
@@ -23,5 +27,20 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:kkoch986@gmail.com"
     - label: "Github"
-      icon: "fas fa-fw fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/kkoch986"
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: archive-taxonomy
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+tag_archive:
+  type: jekyll-archives
+  path: /tags/

@@ -1,0 +1,35 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$type-size-1: 1.953em !default;
+$type-size-2: 1.563em !default;
+$type-size-3: 1.25em !default;
+$type-size-4: 1em !default;
+$type-size-5: 0.75em !default;
+$type-size-6: 0.6875em !default;
+$type-size-7: 0.625em !default;
+$type-size-8: 0.5em !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.page__content {
+  p,
+  li,
+  dl {
+    font-size: $type-size-5;
+  }
+}
+
+.site-subtitle {
+  font-weight: 200;
+  font-size: $type-size-7;
+}
+
+.masthead__menu-item a {
+  font-size: $type-size-5;
+  margin: 0 .75rem;
+}
